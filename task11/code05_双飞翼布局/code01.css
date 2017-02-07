@@ -1,0 +1,36 @@
+。 {
+  margin: 0;
+}
+.content:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.content {
+  min-width: 500px;
+}
+.main {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+.wrap {
+  margin-left: 110px;
+  margin-right: 160px;
+  height: 500px;
+  background: orange;
+}
+.aside {
+  width: 100px;
+  height: 300px;
+  background: green;
+  float: left;
+  margin-left: -100%;
+}
+.extra {
+  width: 150px;
+  height: 300px;
+  background: pink;
+  float: left;
+  margin-left: -150px;
+}

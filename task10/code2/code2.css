@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+.card {
+  margin: 25px auto;
+  width: 600px;
+  height:520px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: arial;
+}
+.caption {
+  margin: 0 auto;
+  width: 600px;
+  height: 60px;
+  background: #009688;
+}
+.caption > h3 {
+  padding: 15px;
+  color: #fff;
+  font-size: 24px;
+}
+.attributebox {
+  overflow: auto;
+  margin: 10px 15px;
+}
+form p{
+  color: #757575;
+  
+  margin-top:8px;
+  margin-bottom: 8px;
+}
+.attributebox input,textarea{
+  margin-bottom: 5px;
+  display: block;
+  width: 590px;
+  border: none;
+  background:no-repeat 0 0 scroll ＃EEEEEE;
+  outline:medium;
+}
+.food {
+  float: left;
+}
+.choose {
+  
+  overflow: hidden;
+  margin: 15px; 
+}
+.gendar {
+  float: left;
+  margin-left: 200px;
+}
+.submit {
+  margin-left: 20px;
+  background: #009688;
+  color: #fff;
+  width: 60px;
+  height: 30px;
+  border: none;
+}

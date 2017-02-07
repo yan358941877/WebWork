@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+.layout {
+  margin: 10px auto;
+  width: 600px;
+}
+#header {
+  
+  height: 50px;
+  background: yellow;
+}
+#main {
+
+  height: 500px;
+  background: green;
+}
+#footer {
+
+  height: 50px;
+  background: pink;
+}

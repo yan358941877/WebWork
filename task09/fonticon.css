@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('font_mgg1juljcjqyqfr/iconfont.eot');
+  src: url('font_mgg1juljcjqyqfr/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('font_mgg1juljcjqyqfr/iconfont.woff') format('woff'),
+  url('font_mgg1juljcjqyqfr/iconfont.ttf') format('truetype'),
+  url('font_mgg1juljcjqyqfr/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont:hover {
+  color: blue;
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:100px;
+  font-style:normal;
+  color: red;
+}

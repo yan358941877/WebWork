@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 800px;
+  margin: 0 auto;
+}
+.caption {
+  margin:20px auto;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  color: #666;
+}
+ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+ul {
+  list-style: none;
+  margin-left: -10px;
+}
+.place {
+  height: 230px;
+  width: 260px;
+  float: left;
+  margin: 20px 0px;
+  margin-left: 10px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.place > img {
+  width: 260px;
+  opacity: 0.75;
+}
+.centercontent {
+  text-align: center;
+  margin: 15px 0;
+}

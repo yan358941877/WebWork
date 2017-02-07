@@ -1,0 +1,42 @@
+* {
+  
+}
+.main {
+  margin: 30px auto;
+  width: 600px;
+  height: 600px;
+}
+.box {
+  margin: 30px auto;
+  width: 600px;
+  height: 100px;
+  border-radius: 3px;
+  color: #fff;
+  overflow: hidden;
+}
+.congratulation {
+  background: #4caf50;
+}
+.inform {
+  background: #2196f3;
+}
+.god {
+  background: #f44336;
+}
+.alert {
+  background: #ff9800;
+}
+.close {
+  display: inline-block;
+  margin: 5px 15px;
+  float: right;
+  font-size: 22px;
+  cursor:pointer;
+}
+.box h3 {
+  margin: 15px;
+  font-size: 24px;
+}
+.box p {
+  margin: 18px 15px;
+}
